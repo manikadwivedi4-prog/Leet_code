@@ -11,11 +11,11 @@ public:
         }
 
         if (rev == num){
-            return 1;
+            return true;
         }
 
         else{
-            return 0;
+            return false;
         }
 
     }
